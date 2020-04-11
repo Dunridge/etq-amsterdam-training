@@ -1,0 +1,8 @@
+/* It is possible to remove bullets from ul lists by setting the CSS 
+list-style-type property to none . As a result, the bullets disappear 
+from the list. Note: to get rid of the automatic indentation, you can 
+also set margin and padding to 0 */
+
+ul {
+    list-style: none;
+}
