@@ -3,6 +3,59 @@ list-style-type property to none . As a result, the bullets disappear
 from the list. Note: to get rid of the automatic indentation, you can 
 also set margin and padding to 0 */
 
+/* header styles */
 ul {
     list-style: none;
 }
+
+div.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul.titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+ul.titles > li {
+    margin: 10px;
+}
+
+div.nav.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+div.right, div.left {
+    display: flex;
+    flex-direction: row;
+}
+
+div.nav.options {
+    
+}
+
+/* main styles */
+
+/* -- main banner styles */
+
+/* -- features content styles */
+
+/* -- advertisement styles */
+
+/* -- about us styles */
+
+/* footer styles */
+
+/* -- social info styles */
+
+/* -- news letter form styles */
+
+/* -- payment methods styles */
+
+/* -- conditions styles */
