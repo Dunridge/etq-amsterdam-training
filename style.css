@@ -1,5 +1,15 @@
 
+/*
+TODO: consider using sass with Koala for your app (for more info on how to do that see FL12_HW1)
+*/
+
+html {
+    font-family: Graphik,sans-serif;
+    margin: -10px;
+}
+
 /* header styles */
+
 ul {
     list-style: none;
 }
@@ -9,12 +19,22 @@ div.nav {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    z-index: 1;
+    /* margin: 10px; */
+
+    /* color: white; */
+    /* position: fixed;
+    top: 0; */
 }
 
 ul.titles {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+
+    /* color: white;
+    position: fixed;
+    top: 0; */
 }
 
 ul.titles > li {
@@ -32,14 +52,42 @@ div.right, div.left {
     flex-direction: row;
 }
 
+div.nav.emblem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+    font-weight: 700;
+    margin-left: 10%;
+}
+
+div.nav.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    font-family: Graphik,sans-serif;
+    font-weight: 700;
+    margin-right: 0;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+.options > li:nth-child(3) {
+    white-space: nowrap;
+}
+
+.tools > li:nth-child(3) {
+    white-space: nowrap;
+}
 
 /* main styles */
 
 /* -- main banner styles */
 
-html {
+/* html {
     margin: -10px;
-}
+} */
 
 .main-banner {
     background-image: url(img/new-home-c-default.jpg);
@@ -58,6 +106,8 @@ html {
 
 .main-banner-text > span, h1 {
     color: white;
+    font-family: Graphik,sans-serif;
+    font-weight: 400;
 }
 
 .main-banner-text > span {
@@ -69,8 +119,58 @@ html {
     margin-bottom: 21px;
 }
 
-
 /* -- features content styles */
+
+.features-content > ul > li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#first-feature {
+    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/096A1659-e1588857030726-816x816-c-default.jpg");
+    background-size: cover;
+    width: 306.46px;
+    height: 306.46px;
+}
+
+#second-feature {
+    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/04/LT-01-vegea-white-1-e1587035877675-816x816-c-default.jpg");
+    background-size: cover;
+    width: 306.46px;
+    height: 306.46px;
+}
+
+#third-feature {
+    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/02/econyl1x1-e1582131733707-816x816-c-default.jpg");
+    background-size: cover;
+    width: 306.46px;
+    height: 306.46px;
+}
+
+.features-content-first > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#fourth-feature {
+    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/inaction-e1588849634448-1400x0-c-default.jpg");
+    background-size: cover;
+    width: 713px;
+    height: 534.35px;
+}
+
+#fifth-feature {
+    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/store-1-e1588861657410-1400x0-c-default.jpg");
+    background-size: cover;
+    width: 713px;
+    height: 534.35px;
+}
+
+.features-content-second > ul > li {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 /* -- advertisement styles */
 
