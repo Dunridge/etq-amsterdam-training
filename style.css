@@ -6,6 +6,7 @@ TODO: consider using sass with Koala for your app (for more info on how to do th
 html {
     font-family: Graphik,sans-serif;
     margin: -10px;
+    font-size: 13px;
 }
 
 /* header styles */
@@ -89,6 +90,11 @@ div.nav.counter {
     margin: -10px;
 } */
 
+/* main { ???
+    margin-left: 0px;
+    margin-right: 20px;
+} */
+
 .main-banner {
     background-image: url(img/new-home-c-default.jpg);
     background-size: cover;
@@ -144,12 +150,15 @@ div.nav.counter {
     background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/02/econyl1x1-e1582131733707-816x816-c-default.jpg");
     background-size: cover;
     width: 306.46px;
+    /* width: 100%; */
     height: 306.46px;
+    /* height: auto; */
+    margin-right: 40px;
 }
 
 .features-content-first > ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #fourth-feature {
@@ -168,13 +177,92 @@ div.nav.counter {
 
 .features-content-second > ul > li {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
+div.card.feature .title {
+    font-weight: 500;
+    margin-top: 17.479px;
+    font-size: 1.09244rem;
+    line-height: 1.6;
+}
 
-/* -- advertisement styles */
+div.card.feature .description {
+    font-size: 1.2605rem;
+    letter-spacing: .05rem;
+}
 
 /* -- about us styles */
+
+.contact-possibilities > ul > li {
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 10px;
+    width: 341.5px;
+    height: 341.5px;
+}
+
+.contact-possibilities > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-possibility {
+    /* background-color: red; */
+    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589456748.jpg");
+    background-size: cover;
+    height: 341.5px;
+    width: 341.5px;
+}
+
+#second-possibility {
+    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589273537.jpg");
+    background-size: cover;
+    height: 341.5px;
+    width: 341.5px;
+}
+
+#third-possibility {
+    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589184292.jpg");
+    background-size: cover;
+    height: 341.5px;
+    width: 341.5px;
+}
+
+#fourth-possibility {
+    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589104412.jpg");
+    background-size: cover;
+    height: 341.5px;
+    width: 341.5px;
+}
+
+.possibility-info .time-stamp {
+    letter-spacing: .02em;
+    color: #313131;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-bottom: .42017rem;
+    margin-top: 2rem;
+    font-family: Graphik,sans-serif;
+    font-size: 1.09244rem;
+    line-height: 1;
+    font-weight: 500!important;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 1.9s;
+}
+
+.possibility-info .content {
+
+}
+
+.possibility-info .likes {
+
+}
 
 /* footer styles */
 
