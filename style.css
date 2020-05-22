@@ -161,6 +161,10 @@ h1 {
     justify-content: space-between;
 }
 
+.features-content-second > ul > li > .card > .image-container {
+    margin: 15px;
+}
+
 div.card.feature .title {
     font-weight: 500;
     margin-top: 17.479px;
@@ -329,8 +333,15 @@ div.news-letter-form > form > input {
         align-items: center;
     }
 
-    div.header__menue {
+    div.header__menue { /*this is not working*/
         z-index: 2;
+    }
+
+    div.features-content-second > ul > li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
 
 }
