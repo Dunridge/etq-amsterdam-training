@@ -1,10 +1,9 @@
-
 /*
 TODO: consider using sass with Koala for your app (for more info on how to do that see FL12_HW1)
 */
 
 html {
-    font-family: Graphik,sans-serif;
+    font-family: Graphik, sans-serif;
     margin: -10px;
     font-size: 13px;
 }
@@ -21,21 +20,12 @@ div.nav {
     justify-content: space-between;
     width: 100%;
     z-index: 1;
-    /* margin: 10px; */
-
-    /* color: white; */
-    /* position: fixed;
-    top: 0; */
 }
-
+ 
 ul.titles {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-    /* color: white;
-    position: fixed;
-    top: 0; */
 }
 
 ul.titles > li {
@@ -48,7 +38,8 @@ div.nav.counter {
     justify-content: flex-end;
 }
 
-div.right, div.left {
+div.right,
+div.left {
     display: flex;
     flex-direction: row;
 }
@@ -67,7 +58,7 @@ div.nav.counter {
     flex-direction: row;
     justify-content: center;
     align-self: center;
-    font-family: Graphik,sans-serif;
+    font-family: Graphik, sans-serif;
     font-weight: 700;
     margin-right: 0;
     padding-right: 30px;
@@ -86,15 +77,6 @@ div.nav.counter {
 
 /* -- main banner styles */
 
-/* html {
-    margin: -10px;
-} */
-
-/* main { ???
-    margin-left: 0px;
-    margin-right: 20px;
-} */
-
 .main-banner {
     background-image: url(img/new-home-c-default.jpg);
     background-size: cover;
@@ -110,9 +92,10 @@ div.nav.counter {
     margin-bottom: 65px;
 }
 
-.main-banner-text > span, h1 {
+.main-banner-text > span,
+h1 {
     color: white;
-    font-family: Graphik,sans-serif;
+    font-family: Graphik, sans-serif;
     font-weight: 400;
 }
 
@@ -133,26 +116,24 @@ div.nav.counter {
 }
 
 #first-feature {
-    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/096A1659-e1588857030726-816x816-c-default.jpg");
+    background-image: url('https://www.etq-amsterdam.com/wp-content/uploads/2020/05/096A1659-e1588857030726-816x816-c-default.jpg');
     background-size: cover;
     width: 306.46px;
     height: 306.46px;
 }
 
 #second-feature {
-    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/04/LT-01-vegea-white-1-e1587035877675-816x816-c-default.jpg");
+    background-image: url('https://www.etq-amsterdam.com/wp-content/uploads/2020/04/LT-01-vegea-white-1-e1587035877675-816x816-c-default.jpg');
     background-size: cover;
     width: 306.46px;
     height: 306.46px;
 }
 
 #third-feature {
-    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/02/econyl1x1-e1582131733707-816x816-c-default.jpg");
+    background-image: url('https://www.etq-amsterdam.com/wp-content/uploads/2020/02/econyl1x1-e1582131733707-816x816-c-default.jpg');
     background-size: cover;
     width: 306.46px;
-    /* width: 100%; */
     height: 306.46px;
-    /* height: auto; */
     margin-right: 40px;
 }
 
@@ -162,14 +143,14 @@ div.nav.counter {
 }
 
 #fourth-feature {
-    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/inaction-e1588849634448-1400x0-c-default.jpg");
+    background-image: url('https://www.etq-amsterdam.com/wp-content/uploads/2020/05/inaction-e1588849634448-1400x0-c-default.jpg');
     background-size: cover;
     width: 713px;
     height: 534.35px;
 }
 
 #fifth-feature {
-    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/store-1-e1588861657410-1400x0-c-default.jpg");
+    background-image: url('https://www.etq-amsterdam.com/wp-content/uploads/2020/05/store-1-e1588861657410-1400x0-c-default.jpg');
     background-size: cover;
     width: 713px;
     height: 534.35px;
@@ -189,7 +170,7 @@ div.card.feature .title {
 
 div.card.feature .description {
     font-size: 1.2605rem;
-    letter-spacing: .05rem;
+    letter-spacing: 0.05rem;
 }
 
 /* -- about us styles */
@@ -211,65 +192,145 @@ div.card.feature .description {
 
 #first-possibility {
     /* background-color: red; */
-    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589456748.jpg");
+    background-image: url('https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589456748.jpg');
     background-size: cover;
     height: 341.5px;
     width: 341.5px;
 }
 
 #second-possibility {
-    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589273537.jpg");
+    background-image: url('https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589273537.jpg');
     background-size: cover;
     height: 341.5px;
     width: 341.5px;
 }
 
 #third-possibility {
-    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589184292.jpg");
+    background-image: url('https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589184292.jpg');
     background-size: cover;
     height: 341.5px;
     width: 341.5px;
 }
 
 #fourth-possibility {
-    background-image: url("https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589104412.jpg");
+    background-image: url('https://www.etq-amsterdam.com/wp-content/uploads/2020/05/1589104412.jpg');
     background-size: cover;
     height: 341.5px;
     width: 341.5px;
 }
 
 .possibility-info .time-stamp {
-    letter-spacing: .02em;
+    letter-spacing: 0.02em;
     color: #313131;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     display: block;
-    margin-bottom: .42017rem;
+    margin-bottom: 0.42017rem;
     margin-top: 2rem;
-    font-family: Graphik,sans-serif;
+    font-family: Graphik, sans-serif;
     font-size: 1.09244rem;
     line-height: 1;
-    font-weight: 500!important;
+    font-weight: 500 !important;
     opacity: 1;
     transition-property: opacity;
     transition-duration: 1.9s;
-}
-
-.possibility-info .content {
-
-}
-
-.possibility-info .likes {
-
 }
 
 /* footer styles */
 
 /* -- social info styles */
 
+.contact-info > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.company-info > li {
+    display: flex;
+    flex-direction: column;
+    width: 341.5px;
+    margin-right: 16.3865px;
+}
+
+body > footer > div > ul > li.company-info.about {
+    width: 450px;
+}
+
+.company-info > div {
+    padding-right: 21.8487px;
+}
+
+/* -- footer row styles */
+div.row {
+    display: flex;
+    justify-content: space-around;
+}
 /* -- news letter form styles */
+div.news-letter-form {
+    width: 613.8px;
+    display: flex;
+}
+
+div.news-letter-form > form {
+    display: flex;
+    width: 613.8px;
+}
+
+div.news-letter-form > form > input {
+    border-top: none;
+}
+
+.button--inline {
+    display: inline-block;
+}
 
 /* -- payment methods styles */
 
+.payment-methods > img {
+    max-height: 21px;
+    height: auto;
+}
+
+.payment-methods {
+    display: flex;
+    padding: 8px 15px 15px 0px;
+}
+
 /* -- conditions styles */
+
+.conditions {
+    margin-left: 15px;
+    display: block;
+}
+
+@media only screen and (max-width: 1025px) {
+    
+    div.nav.options, div.nav.tools {
+        display: none;
+    }
+
+    div.nav {
+        height: 61.2px;
+    }
+
+    div.left {
+        width: 100%;
+        display: flex;
+    }
+
+    div.nav.emblem {
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    div.nav.counter {
+        align-items: center;
+    }
+
+    div.header__menue {
+        z-index: 2;
+    }
+
+}
