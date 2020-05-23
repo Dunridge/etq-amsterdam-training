@@ -110,6 +110,10 @@ h1 {
 
 /* -- features content styles */
 
+div.feature {
+    margin-left: 15px;
+}
+
 .features-content > ul > li {
     display: inline-block;
     margin: 10px;
@@ -140,6 +144,10 @@ h1 {
 .features-content-first > ul {
     display: flex;
     justify-content: space-between;
+}
+
+.features-content-first > ul > li {
+    padding: 15px;
 }
 
 #fourth-feature {
@@ -281,8 +289,21 @@ div.news-letter-form > form {
     width: 613.8px;
 }
 
-div.news-letter-form > form > input {
-    border-top: none;
+div.newsletter-form > form > div.row > input {
+    border-width:0px;
+    border:none;
+    box-shadow: none;
+    margin-right: 10px;
+    border-bottom: 1px solid lightgray;
+    outline: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.newsletter-form > form > div.row > button {
+    border-width: 0px;
+    border: none;
+    background: none;
 }
 
 .button--inline {
@@ -343,5 +364,4 @@ div.news-letter-form > form > input {
         justify-content: center;
         
     }
-
 }
